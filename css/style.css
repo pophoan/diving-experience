@@ -28,7 +28,7 @@ header h1 {
   line-height: 80px;
   font-size: 0px;
   color: white;
-  background: url(/images/Logo1-01.svg) no-repeat center center;
+  background: url(../images/Logo1-01.svg) no-repeat center center;
 }
 
 header ul {
@@ -60,7 +60,7 @@ header a:hover {
   align-items: center;
   height: 105vh;
   /* overflow: hidden; */
-  background: url(/images/banner.png) no-repeat center/cover;
+  background: url(../images/banner.png) no-repeat center/cover;
 }
 
 
