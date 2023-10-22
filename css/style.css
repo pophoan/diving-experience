@@ -251,7 +251,15 @@ footer {
   }
 
   .slogan blockquote {
+    padding: 70px 30px 0px;
     font-size: 14px;
+    line-height: 2em;
+  }
+
+  .news p {
+    margin-top: 30px;
+    font-size: 16px;
+    padding: 0 15px;
   }
 
   .view {
@@ -283,5 +291,8 @@ footer {
     margin-bottom: 60px;
   }
 
+  .newsletter p {
+    font-size: 14px;
+  }
 
 }
