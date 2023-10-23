@@ -142,6 +142,14 @@ header a:hover {
   background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
 }
 
+.product .lesson:hover {
+  transform: scale(1.05);
+  /* 放大效果 */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+  transition: 0.5S;
+  border-radius: 5px;
+}
+
 .product img {
   width: 300px;
   border-radius: 10px;

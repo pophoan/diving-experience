@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>三原色網站</title>
+    <style>
+        /* CSS部分 */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #ff0000;  /* 紅色 */
+            color: #ffffff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #00ff00;  /* 綠色 */
+        }
+
+        nav a {
+            color: #ffffff;
+            padding: 10px 20px;
+            text-decoration: none;
+            margin: 0 5px;
+            transition: transform 0.3s;  /* 添加動畫效果 */
+        }
+
+        nav a:hover {
+            background-color: #009900;  /* 深綠色 */
+            transform: scale(1.1);  /* 放大效果 */
+        }
+
+        main {
+            padding: 20px;
+            background-color: #ffff00;  /* 黃色 */
+        }
+
+        .product-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .product {
+            border: 1px solid #ccc;
+            padding: 20px;
+            width: 200px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            background-color: #ffffff;
+            transition: transform 0.3s, box-shadow 0.3s;  /* 添加動畫效果 */
+        }
+
+        .product:hover {
+            transform: scale(1.05);  /* 放大效果 */
+            box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+        }
+
+        button {
+            padding: 8px 15px;
+            background-color: #00ff00;  /* 綠色 */
+            border: none;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.2s;  /* 添加動畫效果 */
+        }
+
+        button:hover {
+            background-color: #009900;  /* 深綠色 */
+            transform: translateY(-2px);  /* 向上移動效果 */
+        }
+
+        footer {
+            background-color: #ff0000;  /* 紅色 */
+            color: #ffffff;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    三原色網站標題
+</header>
+
+<nav>
+    <a href="#">首頁</a>
+    <a href="#">關於我們</a>
+    <a href="#">服務</a>
+    <a href="#">聯絡我們</a>
+</nav>
+
+<main>
+    <h1>歡迎來到三原色網站</h1>
+    <p>這裡是內容部分，背景使用了明亮的黃色。</p>
+
+    <!-- 商品區塊 -->
+    <section class="product-grid">
+        <div class="product">
+            <img src="product1.jpg" alt="商品1">
+            <h3>商品1</h3>
+            <p>商品描述</p>
+            <button>購買</button>
+        </div>
+        <div class="product">
+            <img src="product2.jpg" alt="商品2">
+            <h3>商品2</h3>
+            <p>商品描述</p>
+            <button>購買</button>
+        </div>
+        <div class="product">
+            <img src="product3.jpg" alt="商品3">
+            <h3>商品3</h3>
+            <p>商品描述</p>
+            <button>購買</button>
+        </div>
+        <!-- 可以繼續添加更多商品 -->
+    </section>
+</main>
+
+<footer>
+    版權所有 &copy; 2023
+</footer>
+
+</body>
+</html>
