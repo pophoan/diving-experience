@@ -47,7 +47,7 @@ header a {
 }
 
 header a:hover {
-  color: rgb(106, 243, 216);
+  color: rgb(234, 255, 0);
   text-decoration: underline;
   text-underline-offset: 10px;
   transition: 0.5s;
