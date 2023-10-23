@@ -102,6 +102,7 @@ header a:hover {
 
 }
 
+/* 透過偽類+position定位＆z-index+偽類hover，實現過場動畫 */
 .slogan::before {
   content: " ";
   position: absolute;
