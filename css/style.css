@@ -142,6 +142,10 @@ header a:hover {
   background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
 }
 
+.lesson {
+  padding-bottom: 20px;
+}
+
 .product .lesson:hover {
   transform: scale(1.05);
   /* 放大效果 */
